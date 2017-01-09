@@ -114,6 +114,12 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		
+		<dependency>
+    <groupId>org.apache.derby</groupId>
+    <artifactId>derby</artifactId>
+    <version>10.13.1.1</version>
+</dependency>
 		<!-- for testing -->
 		<dependency>
 			<groupId>org.mule.tests</groupId>
@@ -131,6 +137,12 @@
             <groupId>cglib</groupId>
             <artifactId>cglib</artifactId>
             <version>3.2.2</version>
+            <scope>provided</scope>
+        </dependency>
+    <dependency>
+            <groupId>org.mule.modules</groupId>
+            <artifactId>mule-module-db</artifactId>
+            <version>${mule.version}</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
